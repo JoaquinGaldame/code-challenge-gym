@@ -1,0 +1,15 @@
+{
+  "name": "code-challenge-gym",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Algorithm and coding interview practice repository for Python and JavaScript.",
+  "scripts": {
+    "test": "jest --runInBand --testPathPattern=test_solution\\.test\\.js$",
+    "test:js": "jest --runInBand --testPathPattern=test_solution\\.test\\.js$",
+    "test:starter": "jest --runInBand --testPathPattern=test_starter\\.test\\.js$",
+    "test:all": "python tools/run_all_tests.py --track solution"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
